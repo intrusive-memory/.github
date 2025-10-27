@@ -14,16 +14,6 @@ A Swift library for audio and speech processing.
 
 ---
 
-### SwiftGuion
-[![Tests](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
-
-A Swift scripting and automation framework.
-
-[View Repository →](https://github.com/intrusive-memory/SwiftGuion)
-
----
-
 ### SwiftFijos
 [![Tests](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
