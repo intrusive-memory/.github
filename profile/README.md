@@ -6,6 +6,9 @@ A collection of Swift libraries and frameworks for multimedia and UI development
 
 ### SwiftHablare
 [![Tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/commits)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 A Swift library for audio and speech processing.
@@ -16,6 +19,9 @@ A Swift library for audio and speech processing.
 
 ### SwiftProyecto
 [![Tests](https://github.com/intrusive-memory/SwiftProyecto/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftProyecto/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/commits)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 A Swift project management and build automation framework.
@@ -26,6 +32,9 @@ A Swift project management and build automation framework.
 
 ### SwiftCompartido
 [![Tests](https://github.com/intrusive-memory/SwiftCompartido/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftCompartido/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/commits)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 Shared Swift utilities and common components for cross-project development.
@@ -36,6 +45,9 @@ Shared Swift utilities and common components for cross-project development.
 
 ### SwiftFijos
 [![Tests](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/commits)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
@@ -51,6 +63,9 @@ Swift utilities for fixed and constrained data structures.
 
 ### SwiftFFMpeg
 [![Tests](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/commits)
 ![Swift](https://img.shields.io/badge/Swift-96.2%25-orange.svg)
 ![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
 
@@ -62,6 +77,9 @@ Swift wrapper for FFmpeg multimedia framework, providing video and audio process
 
 ### SwiftEspeak
 [![Tests](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/commits)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 ![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
 
