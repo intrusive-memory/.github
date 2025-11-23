@@ -14,6 +14,26 @@ A Swift library for audio and speech processing.
 
 ---
 
+### SwiftProyecto
+[![Tests](https://github.com/intrusive-memory/SwiftProyecto/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftProyecto/actions/workflows/tests.yml)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+A Swift project management and build automation framework.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftProyecto)
+
+---
+
+### SwiftCompartido
+[![Tests](https://github.com/intrusive-memory/SwiftCompartido/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftCompartido/actions/workflows/tests.yml)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+Shared Swift utilities and common components for cross-project development.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftCompartido)
+
+---
+
 ### SwiftFijos
 [![Tests](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFijos/actions/workflows/tests.yml)
 ![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
@@ -25,11 +45,14 @@ Swift utilities for fixed and constrained data structures.
 
 ---
 
+## Experimental Projects
+
+**Note:** The following projects are experimental and not ready for production use. They may be incomplete, unstable, or subject to significant changes.
+
 ### SwiftFFMpeg
 [![Tests](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml)
 ![Swift](https://img.shields.io/badge/Swift-96.2%25-orange.svg)
-![C](https://img.shields.io/badge/C-1.8%25-blue.svg)
-![Python](https://img.shields.io/badge/Python-2.0%25-blue.svg)
+![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
 
 Swift wrapper for FFmpeg multimedia framework, providing video and audio processing capabilities.
 
@@ -37,15 +60,14 @@ Swift wrapper for FFmpeg multimedia framework, providing video and audio process
 
 ---
 
-### ffmpeg-framework
-[![Build](https://github.com/intrusive-memory/ffmpeg-framework/actions/workflows/build.yml/badge.svg)](https://github.com/intrusive-memory/ffmpeg-framework/actions/workflows/build.yml)
-![Swift](https://img.shields.io/badge/Swift-2.2%25-orange.svg)
-![Shell](https://img.shields.io/badge/Shell-97.8%25-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+### SwiftEspeak
+[![Tests](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
 
-Pre-built FFmpeg XCFrameworks for iOS and macOS development.
+Swift wrapper for eSpeak text-to-speech synthesis.
 
-[View Repository →](https://github.com/intrusive-memory/ffmpeg-framework)
+[View Repository →](https://github.com/intrusive-memory/SwiftEspeak)
 
 ---
 
