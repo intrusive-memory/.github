@@ -5,7 +5,7 @@ A collection of Swift libraries and frameworks for multimedia and UI development
 ## Projects
 
 ### SwiftHablare
-[![Tests](https://img.shields.io/github/actions/workflow/status/intrusive-memory/SwiftHablare/tests.yml)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml)
+[![Tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml)
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/commits)
