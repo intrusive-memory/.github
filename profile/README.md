@@ -2,6 +2,28 @@
 
 A collection of Swift libraries and frameworks for multimedia and UI development.
 
+## Homebrew Tap
+
+Install CLI tools via Homebrew:
+
+```bash
+brew tap intrusive-memory/tap
+brew install proyecto
+brew install bruja
+```
+
+| Formula | Description | Source |
+|---------|-------------|--------|
+| `proyecto` | CLI tool for analyzing directories and generating PROJECT.md files using local LLM inference | [SwiftProyecto](https://github.com/intrusive-memory/SwiftProyecto) |
+| `bruja` | CLI tool for on-device LLM queries on Apple Silicon | [SwiftBruja](https://github.com/intrusive-memory/SwiftBruja) |
+| `hablare` | Audio and speech processing CLI | [SwiftHablare](https://github.com/intrusive-memory/SwiftHablare) |
+
+Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
+
+[View Tap Repository →](https://github.com/intrusive-memory/homebrew-tap)
+
+---
+
 ## Projects
 
 ### SwiftHablare
@@ -59,6 +81,58 @@ Swift utilities for fixed and constrained data structures.
 
 ---
 
+### SwiftBruja
+[![Tests](https://github.com/intrusive-memory/SwiftBruja/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftBruja/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/commits)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+On-device LLM for Apple Silicon — CLI and Swift library for downloading models and running queries locally.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftBruja)
+
+---
+
+### SwiftGuion
+[![Tests](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/commits)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+Guion means "screenplay" in Spanish. Swift library for screenplay file handling.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftGuion)
+
+---
+
+### SwiftSecuencia
+[![Tests](https://github.com/intrusive-memory/SwiftSecuencia/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftSecuencia/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/commits)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+A Swift library for generating and exporting Final Cut Pro X timelines via FCPXML.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftSecuencia)
+
+---
+
+### SwiftPruebas
+[![Tests](https://github.com/intrusive-memory/SwiftPruebas/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftPruebas/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/commits)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+Swift testing utilities.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftPruebas)
+
+---
+
 ## Experimental Projects
 
 **Note:** The following projects are experimental and not ready for production use. They may be incomplete, unstable, or subject to significant changes.
@@ -88,6 +162,21 @@ Swift wrapper for FFmpeg multimedia framework, providing video and audio process
 Swift wrapper for eSpeak text-to-speech synthesis.
 
 [View Repository →](https://github.com/intrusive-memory/SwiftEspeak)
+
+---
+
+## Infrastructure & Tools
+
+| Repository | Description |
+|------------|-------------|
+| [homebrew-tap](https://github.com/intrusive-memory/homebrew-tap) | Homebrew tap for proyecto, bruja, and hablare CLI tools |
+| [github-actions](https://github.com/intrusive-memory/github-actions) | Shared GitHub Actions for intrusive-memory projects |
+| [skills](https://github.com/intrusive-memory/skills) | Claude Code skills for iOS/macOS development, UI/UX design, and automation |
+| [app-store-connect-mcp-server](https://github.com/intrusive-memory/app-store-connect-mcp-server) | App Store Connect MCP server |
+| [pipeline](https://github.com/intrusive-memory/pipeline) | A Swift framework for working with Final Cut Pro X FCPXML files |
+| [espeak-ng](https://github.com/intrusive-memory/espeak-ng) | Fork of eSpeak NG speech synthesizer |
+| [espeak](https://github.com/intrusive-memory/espeak) | Fork of eSpeak speech synthesizer |
+| [ffmpeg-framework](https://github.com/intrusive-memory/ffmpeg-framework) | FFmpeg framework for Swift integration |
 
 ---
 
