@@ -17,6 +17,7 @@ brew install bruja
 | `proyecto` | CLI tool for analyzing directories and generating PROJECT.md files using local LLM inference | [SwiftProyecto](https://github.com/intrusive-memory/SwiftProyecto) |
 | `bruja` | CLI tool for on-device LLM queries on Apple Silicon | [SwiftBruja](https://github.com/intrusive-memory/SwiftBruja) |
 | `hablare` | Audio and speech processing CLI | [SwiftHablare](https://github.com/intrusive-memory/SwiftHablare) |
+| `echada` | AI-powered cast management for screenplay projects | [SwiftEchada](https://github.com/intrusive-memory/SwiftEchada) |
 
 Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 
@@ -27,9 +28,7 @@ Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 ## Projects
 
 ### SwiftHablare
-[![Tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests-full.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests-full.yml)
-[![FAST tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/fast-tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/fast-tests.yml)
-[![Integration tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/integration-tests.yml)
+[![Tests](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftHablare/actions/workflows/tests.yml)
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/commits)
@@ -94,6 +93,19 @@ On-device LLM for Apple Silicon — CLI and Swift library for downloading models
 
 ---
 
+### SwiftEchada
+[![Tests](https://github.com/intrusive-memory/SwiftEchada/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftEchada/actions/workflows/tests.yml)
+[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/commits)
+![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
+
+AI-powered cast management for screenplay projects. Extracts characters from screenplay files using local LLM inference and matches them to TTS voices.
+
+[View Repository →](https://github.com/intrusive-memory/SwiftEchada)
+
+---
+
 ### SwiftGuion
 [![Tests](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml)
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/issues)
@@ -121,7 +133,6 @@ A Swift library for generating and exporting Final Cut Pro X timelines via FCPXM
 ---
 
 ### SwiftPruebas
-[![Tests](https://github.com/intrusive-memory/SwiftPruebas/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftPruebas/actions/workflows/tests.yml)
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/commits)
@@ -177,6 +188,9 @@ Swift wrapper for eSpeak text-to-speech synthesis.
 | [espeak-ng](https://github.com/intrusive-memory/espeak-ng) | Fork of eSpeak NG speech synthesizer |
 | [espeak](https://github.com/intrusive-memory/espeak) | Fork of eSpeak speech synthesizer |
 | [ffmpeg-framework](https://github.com/intrusive-memory/ffmpeg-framework) | FFmpeg framework for Swift integration |
+| [package-collection](https://github.com/intrusive-memory/package-collection) | Swift Package Collection for Intrusive Memory libraries |
+| [swift-cmark](https://github.com/intrusive-memory/swift-cmark) | Fork of CommonMark parsing and rendering library in C |
+| [swift-markdown](https://github.com/intrusive-memory/swift-markdown) | Fork of Swift package for parsing, building, and analyzing Markdown |
 
 ---
 
