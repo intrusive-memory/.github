@@ -25,6 +25,115 @@ Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 
 ---
 
+## Dependency Graph
+
+<div align="center">
+
+<!-- Layer 1: Top-level consumer -->
+
+<a href="https://github.com/intrusive-memory/SwiftEchada">
+  <img src="https://img.shields.io/badge/Swift-Echada-blueviolet?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEchada" height="40"/>
+</a>
+
+<br/>
+<sub>↓ depends on ↓</sub>
+<br/><br/>
+
+<!-- Layer 2: Mid-level consumers -->
+
+<a href="https://github.com/intrusive-memory/SwiftHablare">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftHablare/main/SwiftHablare.jpg" alt="SwiftHablare" width="80" height="80" style="border-radius:12px"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftProyecto">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftProyecto/main/SwiftProyecto.jpg" alt="SwiftProyecto" width="80" height="80" style="border-radius:12px"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftSecuencia">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftSecuencia/main/SwiftSecuencia.jpg" alt="SwiftSecuencia" width="80" height="80" style="border-radius:12px"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftGuion">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftGuion/main/Examples/GuionViewer/GuionViewer/Assets.xcassets/GuionAppIcon.appiconset/appicon_128x128.png" alt="SwiftGuion" width="80" height="80" style="border-radius:12px"/>
+</a>
+
+<br/>
+<sub>
+<a href="https://github.com/intrusive-memory/SwiftHablare">Hablare</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftProyecto">Proyecto</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftSecuencia">Secuencia</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftGuion">Guion</a>
+</sub>
+<br/>
+<sub>↓ depends on ↓</sub>
+<br/><br/>
+
+<!-- Layer 3: Foundation libraries -->
+
+<a href="https://github.com/intrusive-memory/SwiftCompartido">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftCompartido/main/SwiftCompartido.jpg" alt="SwiftCompartido" width="80" height="80" style="border-radius:12px"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftFijos">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftFijos/main/SwiftFijos.jpg" alt="SwiftFijos" width="80" height="80" style="border-radius:12px"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftBruja">
+  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftBruja/main/SwiftBruja.jpg" alt="SwiftBruja" width="80" height="80" style="border-radius:12px"/>
+</a>
+
+<br/>
+<sub>
+<a href="https://github.com/intrusive-memory/SwiftCompartido">Compartido</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftFijos">Fijos</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftBruja">Bruja</a>
+</sub>
+
+</div>
+
+### Dependency Details
+
+| Package | Depends On |
+|---------|-----------|
+| **SwiftEchada** | SwiftProyecto, SwiftHablare, SwiftBruja |
+| **SwiftHablare** | SwiftFijos, SwiftCompartido, SwiftProyecto |
+| **SwiftSecuencia** | SwiftCompartido, SwiftFijos |
+| **SwiftGuion** | SwiftFijos |
+| **SwiftProyecto** | SwiftBruja |
+| **SwiftCompartido** | SwiftFijos |
+| **SwiftFijos** | _(leaf)_ |
+| **SwiftBruja** | _(leaf)_ |
+
+---
+
+## Experimental Projects
+
+<div align="center">
+
+<a href="https://github.com/intrusive-memory/SwiftFFMpeg">
+  <img src="https://img.shields.io/badge/Swift-FFMpeg-yellow?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftFFMpeg" height="40"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/intrusive-memory/SwiftEspeak">
+  <img src="https://img.shields.io/badge/Swift-Espeak-yellow?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEspeak" height="40"/>
+</a>
+
+</div>
+
+These projects are experimental and not ready for production use.
+
+| Project | Description |
+|---------|-------------|
+| [SwiftFFMpeg](https://github.com/intrusive-memory/SwiftFFMpeg) | Swift wrapper for FFmpeg multimedia framework (96.2% Swift) |
+| [SwiftEspeak](https://github.com/intrusive-memory/SwiftEspeak) | Swift wrapper for eSpeak text-to-speech synthesis |
+
+---
+
 ## Projects
 
 ### SwiftHablare
@@ -32,7 +141,6 @@ Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftHablare)](https://github.com/intrusive-memory/SwiftHablare/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 A Swift library for audio and speech processing.
 
@@ -45,7 +153,6 @@ A Swift library for audio and speech processing.
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftProyecto)](https://github.com/intrusive-memory/SwiftProyecto/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 A Swift project management and build automation framework.
 
@@ -58,7 +165,6 @@ A Swift project management and build automation framework.
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftCompartido)](https://github.com/intrusive-memory/SwiftCompartido/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 Shared Swift utilities and common components for cross-project development.
 
@@ -71,7 +177,6 @@ Shared Swift utilities and common components for cross-project development.
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftFijos)](https://github.com/intrusive-memory/SwiftFijos/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 Swift utilities for fixed and constrained data structures.
@@ -85,7 +190,6 @@ Swift utilities for fixed and constrained data structures.
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftBruja)](https://github.com/intrusive-memory/SwiftBruja/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 On-device LLM for Apple Silicon — CLI and Swift library for downloading models and running queries locally.
 
@@ -98,7 +202,6 @@ On-device LLM for Apple Silicon — CLI and Swift library for downloading models
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftEchada)](https://github.com/intrusive-memory/SwiftEchada/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 AI-powered cast management for screenplay projects. Extracts characters from screenplay files using local LLM inference and matches them to TTS voices.
 
@@ -111,7 +214,6 @@ AI-powered cast management for screenplay projects. Extracts characters from scr
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 Guion means "screenplay" in Spanish. Swift library for screenplay file handling.
 
@@ -124,7 +226,6 @@ Guion means "screenplay" in Spanish. Swift library for screenplay file handling.
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 A Swift library for generating and exporting Final Cut Pro X timelines via FCPXML.
 
@@ -136,43 +237,10 @@ A Swift library for generating and exporting Final Cut Pro X timelines via FCPXM
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/issues)
 [![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftPruebas)](https://github.com/intrusive-memory/SwiftPruebas/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
 
 Swift testing utilities.
 
 [View Repository →](https://github.com/intrusive-memory/SwiftPruebas)
-
----
-
-## Experimental Projects
-
-**Note:** The following projects are experimental and not ready for production use. They may be incomplete, unstable, or subject to significant changes.
-
-### SwiftFFMpeg
-[![Tests](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftFFMpeg/actions/workflows/tests.yml)
-[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/issues)
-[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftFFMpeg)](https://github.com/intrusive-memory/SwiftFFMpeg/commits)
-![Swift](https://img.shields.io/badge/Swift-96.2%25-orange.svg)
-![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
-
-Swift wrapper for FFmpeg multimedia framework, providing video and audio processing capabilities.
-
-[View Repository →](https://github.com/intrusive-memory/SwiftFFMpeg)
-
----
-
-### SwiftEspeak
-[![Tests](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftEspeak/actions/workflows/tests.yml)
-[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/issues)
-[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftEspeak)](https://github.com/intrusive-memory/SwiftEspeak/commits)
-![Swift](https://img.shields.io/badge/Swift-100%25-orange.svg)
-![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg)
-
-Swift wrapper for eSpeak text-to-speech synthesis.
-
-[View Repository →](https://github.com/intrusive-memory/SwiftEspeak)
 
 ---
 
