@@ -1,5 +1,100 @@
 # Intrusive Memory
 
+<table width="100%">
+<tr>
+<td colspan="3" align="center">
+<strong>Application Layer</strong>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<a href="https://github.com/intrusive-memory/SwiftEchada">
+<img src="https://img.shields.io/badge/Swift-Echada-blueviolet?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEchada"/>
+</a>
+<br/><sub>AI-powered cast management</sub>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center"><code>↓ depends on ↓</code></td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<strong>Library Layer</strong>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftHablare">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftHablare/development/icon-sm.png" alt="SwiftHablare" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftHablare">Hablare</a></strong>
+<br/><sub>Audio &amp; speech</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftProyecto">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftProyecto/development/icon-sm.png" alt="SwiftProyecto" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftProyecto">Proyecto</a></strong>
+<br/><sub>Build automation</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftSecuencia">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftSecuencia/development/icon-sm.png" alt="SwiftSecuencia" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftSecuencia">Secuencia</a></strong>
+<br/><sub>FCPXML timelines</sub>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center"><code>↓ depends on ↓</code></td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<strong>Foundation Layer</strong>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftCompartido">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftCompartido/development/icon-sm.png" alt="SwiftCompartido" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftCompartido">Compartido</a></strong>
+<br/><sub>Shared utilities</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftFijos">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftFijos/development/icon-sm.png" alt="SwiftFijos" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftFijos">Fijos</a></strong>
+<br/><sub>Fixed data structures</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/intrusive-memory/SwiftBruja">
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftBruja/development/icon-sm.png" alt="SwiftBruja" width="100"/>
+</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftBruja">Bruja</a></strong>
+<br/><sub>On-device LLM</sub>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Dependency Details</strong></summary>
+
+| Package | Depends On |
+|---------|-----------|
+| **SwiftEchada** | SwiftProyecto, SwiftHablare, SwiftBruja |
+| **SwiftHablare** | SwiftFijos, SwiftCompartido, SwiftProyecto |
+| **SwiftSecuencia** | SwiftCompartido, SwiftFijos |
+| **SwiftProyecto** | SwiftBruja |
+| **SwiftCompartido** | SwiftFijos |
+| **SwiftFijos** | _(leaf)_ |
+| **SwiftBruja** | _(leaf)_ |
+
+</details>
+
+---
+
 A collection of Swift libraries and frameworks for multimedia and UI development.
 
 ## Homebrew Tap
@@ -22,115 +117,6 @@ brew install bruja
 Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 
 [View Tap Repository →](https://github.com/intrusive-memory/homebrew-tap)
-
----
-
-## Dependency Graph
-
-<table width="100%">
-<tr>
-<td colspan="5" align="center">
-
-**Application Layer**
-
-</td>
-</tr>
-<tr>
-<td colspan="5" align="center">
-<a href="https://github.com/intrusive-memory/SwiftEchada">
-<img src="https://img.shields.io/badge/Swift-Echada-blueviolet?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEchada"/>
-</a>
-<br/><sub>AI-powered cast management</sub>
-</td>
-</tr>
-<tr>
-<td colspan="5" align="center"><code>depends on ↓</code></td>
-</tr>
-<tr>
-<td colspan="5" align="center">
-
-**Library Layer**
-
-</td>
-</tr>
-<tr>
-<td width="25%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftHablare">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftHablare/development/icon-sm.png" alt="SwiftHablare" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftHablare">Hablare</a></strong>
-<br/><sub>Audio &amp; speech</sub>
-</td>
-<td width="25%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftProyecto">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftProyecto/development/icon-sm.png" alt="SwiftProyecto" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftProyecto">Proyecto</a></strong>
-<br/><sub>Build automation</sub>
-</td>
-<td width="25%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftSecuencia">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftSecuencia/development/icon-sm.png" alt="SwiftSecuencia" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftSecuencia">Secuencia</a></strong>
-<br/><sub>FCPXML timelines</sub>
-</td>
-<td width="25%" align="center">
-</td>
-</tr>
-<tr>
-<td colspan="5" align="center"><code>depends on ↓</code></td>
-</tr>
-<tr>
-<td colspan="5" align="center">
-
-**Foundation Layer**
-
-</td>
-</tr>
-<tr>
-<td width="20%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftCompartido">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftCompartido/development/icon-sm.png" alt="SwiftCompartido" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftCompartido">Compartido</a></strong>
-<br/><sub>Shared utilities</sub>
-</td>
-<td width="20%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftFijos">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftFijos/development/icon-sm.png" alt="SwiftFijos" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftFijos">Fijos</a></strong>
-<br/><sub>Fixed data structures</sub>
-</td>
-<td width="20%" align="center">
-<a href="https://github.com/intrusive-memory/SwiftBruja">
-<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftBruja/development/icon-sm.png" alt="SwiftBruja" width="100"/>
-</a>
-<br/><strong><a href="https://github.com/intrusive-memory/SwiftBruja">Bruja</a></strong>
-<br/><sub>On-device LLM</sub>
-</td>
-<td width="20%" align="center">
-</td>
-<td width="20%" align="center">
-</td>
-</tr>
-</table>
-
-<details>
-<summary><strong>Dependency Details</strong></summary>
-
-| Package | Depends On |
-|---------|-----------|
-| **SwiftEchada** | SwiftProyecto, SwiftHablare, SwiftBruja |
-| **SwiftHablare** | SwiftFijos, SwiftCompartido, SwiftProyecto |
-| **SwiftSecuencia** | SwiftCompartido, SwiftFijos |
-| **SwiftProyecto** | SwiftBruja |
-| **SwiftCompartido** | SwiftFijos |
-| **SwiftFijos** | _(leaf)_ |
-| **SwiftBruja** | _(leaf)_ |
-
-</details>
 
 ---
 
