@@ -27,110 +27,110 @@ Requires **macOS 26+** and **Apple Silicon** (M1/M2/M3/M4).
 
 ## Dependency Graph
 
-<div align="center">
+<table width="100%">
+<tr>
+<td colspan="5" align="center">
 
-<!-- Layer 1: Top-level consumer -->
+**Application Layer**
 
+</td>
+</tr>
+<tr>
+<td colspan="5" align="center">
 <a href="https://github.com/intrusive-memory/SwiftEchada">
-  <img src="https://img.shields.io/badge/Swift-Echada-blueviolet?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEchada" height="40"/>
+<img src="https://img.shields.io/badge/Swift-Echada-blueviolet?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEchada"/>
 </a>
+<br/><sub>AI-powered cast management</sub>
+</td>
+</tr>
+<tr>
+<td colspan="5" align="center"><code>depends on ↓</code></td>
+</tr>
+<tr>
+<td colspan="5" align="center">
 
-<br/>
-<sub>↓ depends on ↓</sub>
-<br/><br/>
+**Library Layer**
 
-<!-- Layer 2: Mid-level consumers -->
-
+</td>
+</tr>
+<tr>
+<td width="25%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftHablare">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftHablare/main/SwiftHablare.jpg" alt="SwiftHablare" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftHablare/development/icon-sm.png" alt="SwiftHablare" width="100"/>
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftHablare">Hablare</a></strong>
+<br/><sub>Audio &amp; speech</sub>
+</td>
+<td width="25%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftProyecto">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftProyecto/main/SwiftProyecto.jpg" alt="SwiftProyecto" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftProyecto/development/icon-sm.png" alt="SwiftProyecto" width="100"/>
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftProyecto">Proyecto</a></strong>
+<br/><sub>Build automation</sub>
+</td>
+<td width="25%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftSecuencia">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftSecuencia/main/SwiftSecuencia.jpg" alt="SwiftSecuencia" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftSecuencia/development/icon-sm.png" alt="SwiftSecuencia" width="100"/>
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftGuion">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftGuion/main/Examples/GuionViewer/GuionViewer/Assets.xcassets/GuionAppIcon.appiconset/appicon_128x128.png" alt="SwiftGuion" width="80" height="80" style="border-radius:12px"/>
-</a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftSecuencia">Secuencia</a></strong>
+<br/><sub>FCPXML timelines</sub>
+</td>
+<td width="25%" align="center">
+</td>
+</tr>
+<tr>
+<td colspan="5" align="center"><code>depends on ↓</code></td>
+</tr>
+<tr>
+<td colspan="5" align="center">
 
-<br/>
-<sub>
-<a href="https://github.com/intrusive-memory/SwiftHablare">Hablare</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftProyecto">Proyecto</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftSecuencia">Secuencia</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftGuion">Guion</a>
-</sub>
-<br/>
-<sub>↓ depends on ↓</sub>
-<br/><br/>
+**Foundation Layer**
 
-<!-- Layer 3: Foundation libraries -->
-
+</td>
+</tr>
+<tr>
+<td width="20%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftCompartido">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftCompartido/main/SwiftCompartido.jpg" alt="SwiftCompartido" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftCompartido/development/icon-sm.png" alt="SwiftCompartido" width="100"/>
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftCompartido">Compartido</a></strong>
+<br/><sub>Shared utilities</sub>
+</td>
+<td width="20%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftFijos">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftFijos/main/SwiftFijos.jpg" alt="SwiftFijos" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftFijos/development/icon-sm.png" alt="SwiftFijos" width="100"/>
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftFijos">Fijos</a></strong>
+<br/><sub>Fixed data structures</sub>
+</td>
+<td width="20%" align="center">
 <a href="https://github.com/intrusive-memory/SwiftBruja">
-  <img src="https://raw.githubusercontent.com/intrusive-memory/SwiftBruja/main/SwiftBruja.jpg" alt="SwiftBruja" width="80" height="80" style="border-radius:12px"/>
+<img src="https://raw.githubusercontent.com/intrusive-memory/SwiftBruja/development/icon-sm.png" alt="SwiftBruja" width="100"/>
 </a>
+<br/><strong><a href="https://github.com/intrusive-memory/SwiftBruja">Bruja</a></strong>
+<br/><sub>On-device LLM</sub>
+</td>
+<td width="20%" align="center">
+</td>
+<td width="20%" align="center">
+</td>
+</tr>
+</table>
 
-<br/>
-<sub>
-<a href="https://github.com/intrusive-memory/SwiftCompartido">Compartido</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftFijos">Fijos</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftBruja">Bruja</a>
-</sub>
-
-</div>
-
-### Dependency Details
+<details>
+<summary><strong>Dependency Details</strong></summary>
 
 | Package | Depends On |
 |---------|-----------|
 | **SwiftEchada** | SwiftProyecto, SwiftHablare, SwiftBruja |
 | **SwiftHablare** | SwiftFijos, SwiftCompartido, SwiftProyecto |
 | **SwiftSecuencia** | SwiftCompartido, SwiftFijos |
-| **SwiftGuion** | SwiftFijos |
 | **SwiftProyecto** | SwiftBruja |
 | **SwiftCompartido** | SwiftFijos |
 | **SwiftFijos** | _(leaf)_ |
 | **SwiftBruja** | _(leaf)_ |
 
----
-
-## Experimental Projects
-
-<div align="center">
-
-<a href="https://github.com/intrusive-memory/SwiftFFMpeg">
-  <img src="https://img.shields.io/badge/Swift-FFMpeg-yellow?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftFFMpeg" height="40"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/intrusive-memory/SwiftEspeak">
-  <img src="https://img.shields.io/badge/Swift-Espeak-yellow?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftEspeak" height="40"/>
-</a>
-
-</div>
-
-These projects are experimental and not ready for production use.
-
-| Project | Description |
-|---------|-------------|
-| [SwiftFFMpeg](https://github.com/intrusive-memory/SwiftFFMpeg) | Swift wrapper for FFmpeg multimedia framework (96.2% Swift) |
-| [SwiftEspeak](https://github.com/intrusive-memory/SwiftEspeak) | Swift wrapper for eSpeak text-to-speech synthesis |
+</details>
 
 ---
 
@@ -209,18 +209,6 @@ AI-powered cast management for screenplay projects. Extracts characters from scr
 
 ---
 
-### SwiftGuion
-[![Tests](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftGuion/actions/workflows/tests.yml)
-[![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/issues)
-[![Open PRs](https://img.shields.io/github/issues-pr/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/intrusive-memory/SwiftGuion)](https://github.com/intrusive-memory/SwiftGuion/commits)
-
-Guion means "screenplay" in Spanish. Swift library for screenplay file handling.
-
-[View Repository →](https://github.com/intrusive-memory/SwiftGuion)
-
----
-
 ### SwiftSecuencia
 [![Tests](https://github.com/intrusive-memory/SwiftSecuencia/actions/workflows/tests.yml/badge.svg)](https://github.com/intrusive-memory/SwiftSecuencia/actions/workflows/tests.yml)
 [![Open Issues](https://img.shields.io/github/issues/intrusive-memory/SwiftSecuencia)](https://github.com/intrusive-memory/SwiftSecuencia/issues)
@@ -241,6 +229,23 @@ A Swift library for generating and exporting Final Cut Pro X timelines via FCPXM
 Swift testing utilities.
 
 [View Repository →](https://github.com/intrusive-memory/SwiftPruebas)
+
+---
+
+## Experimental Projects
+
+| Project | Description |
+|---------|-------------|
+| [SwiftFFMpeg](https://github.com/intrusive-memory/SwiftFFMpeg) | Swift wrapper for FFmpeg multimedia framework (96.2% Swift) ![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg) |
+| [SwiftEspeak](https://github.com/intrusive-memory/SwiftEspeak) | Swift wrapper for eSpeak text-to-speech synthesis ![Experimental](https://img.shields.io/badge/status-experimental-yellow.svg) |
+
+---
+
+## Archived Projects
+
+| Project | Description |
+|---------|-------------|
+| [SwiftGuion](https://github.com/intrusive-memory/SwiftGuion) | Swift library for screenplay file handling. Depended on SwiftFijos. |
 
 ---
 
